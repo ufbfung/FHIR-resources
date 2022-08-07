@@ -1,0 +1,4 @@
+Considering FHIR, at its core, is meant as an exchange solution. Additional issues need to be addressed such as storage - and more importantly - performance. 
+
+There is a great blog post that discusses some of the real-world challenges for performance testing of FHIR servers currently. 
+https://vneilley.medium.com/most-fhir-servers-are-unusable-in-production-8833cb1480b1
