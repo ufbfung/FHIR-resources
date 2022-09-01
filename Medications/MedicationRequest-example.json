@@ -1,0 +1,86 @@
+{
+    "resourceType": "MedicationRequest",
+    "id": "6971117",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-01T01:59:43.578+00:00",
+        "source": "#My1DFhkE3kXU0xtM"
+    },
+    "text": {
+        "fhir_comments": [
+            "Some comment here"
+        ],
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n Empty for brevity \n </div>"
+    },
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://hl7.org/fhir/ValueSet/identifier-type",
+                        "code": "PGN",
+                        "display": "Placer Group Number"
+                    }
+                ]
+            },
+            "system": "http://fhirintermediate.org/medication_request_id",
+            "value": "22220123456"
+        }
+    ],
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+        "coding": [
+            {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "314076",
+                "display": "lisinopril 10 MG Oral Tablet"
+            }
+        ],
+        "text": "lisinopril 10 MG Oral Tablet"
+    },
+    "subject": {
+        "reference": "Patient/6971115"
+    },
+    "authoredOn": "2022-08-31",
+    "requester": {
+        "reference": "Practitioner/6970054"
+    },
+    "recorder": {
+        "reference": "Practitioner/6970054"
+    },
+    "dosageInstruction": [
+        {
+            "text": "1 tablet by mouth daily",
+            "route": {
+                "coding": [
+                    {
+                        "system": "https://snomed.info/ct",
+                        "code": "26643006",
+                        "display": "Oral route"
+                    }
+                ]
+            },
+            "doseAndRate": [
+                {
+                    "type": {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/ValueSet/dose-rate-type",
+                                "code": "ordered",
+                                "display": "Ordered"
+                            }
+                        ]
+                    },
+                    "doseQuantity": {
+                        "value": 10,
+                        "unit": "tablet",
+                        "system": "https://snomed.info/ct",
+                        "code": "428673006"
+                    }
+                }
+            ]
+        }
+    ]
+}
