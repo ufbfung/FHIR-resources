@@ -1,0 +1,56 @@
+{
+    "resourceType": "MedicationAdministration",
+    "id": "6971119",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-01T02:13:41.505+00:00"
+    },
+    "category": {
+        "coding": [
+            {
+                "system": "http://hl7.org/fhir/ValueSet/medicationrequest-category",
+                "code": "inpatient",
+                "display": "Inpatient"
+            }
+        ]
+    },
+    "medicationCodeableConcept": {
+        "coding": [
+            {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "314076",
+                "display": "lisinopril 10 MG Oral Tablet"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/6971115"
+    },
+    "performer": [
+        {
+            "actor": {
+                "reference": "Practitioner/6970054"
+            }
+        }
+    ],
+    "request": {
+        "reference": "MedicationRequest/6971117"
+    },
+    "dosage": {
+        "route": {
+            "coding": [
+                {
+                    "system": "https://snomed.info/ct",
+                    "code": "26643006",
+                    "display": "Oral route"
+                }
+            ]
+        },
+        "dose": {
+            "value": 10,
+            "unit": "tablet",
+            "system": "https://snomed.info/ct",
+            "code": "428673006"
+        }
+    }
+}
