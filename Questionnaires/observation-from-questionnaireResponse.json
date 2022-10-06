@@ -1,0 +1,38 @@
+{
+    "resourceType": "Observation",
+    "id": "5786660",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2022-10-06T12:55:21.000-04:00",
+      "source": "#umRmSRcqUxisLZkT",
+      "tag": [ {
+        "code": "lformsVersion: 32.0.2"
+      } ]
+    },
+    "status": "final",
+    "code": {
+      "coding": [ {
+        "system": "http://loinc.org",
+        "code": "44254-1",
+        "display": "Feeling tired or having little energy"
+      } ],
+      "text": "Feeling tired or having little energy"
+    },
+    "subject": {
+      "reference": "Patient/pat-60442",
+      "display": "TRENTON ABEDI"
+    },
+    "effectiveDateTime": "2022-10-06T16:55:21.924Z",
+    "issued": "2022-10-06T16:55:21.924Z",
+    "valueCodeableConcept": {
+      "coding": [ {
+        "code": "LA6569-3",
+        "display": "Several days"
+      } ],
+      "text": "Several days"
+    },
+    "derivedFrom": [ {
+      "reference": "QuestionnaireResponse/5786656"
+    } ]
+  }
+  
