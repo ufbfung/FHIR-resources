@@ -1,0 +1,141 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "id": "9595961",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2022-11-03T12:45:17.000-04:00",
+      "source": "#wCTFZm5doRAeWIFH",
+      "profile": [ "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|2.7" ],
+      "tag": [ {
+        "code": "lformsVersion: 32.0.2"
+      } ]
+    },
+    "questionnaire": "Questionnaire/85524-7",
+    "status": "completed",
+    "subject": {
+      "reference": "Patient/pat-20797",
+      "display": "ARLENE EATON"
+    },
+    "authored": "2022-11-03T16:45:17.946Z",
+    "item": [ {
+      "linkId": "/61577-3",
+      "text": "In general, would you say your health is:",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA9206-9",
+          "display": "Excellent"
+        }
+      } ]
+    }, {
+      "linkId": "/61578-1",
+      "text": "In general, would you say your quality of life is:",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA13913-1",
+          "display": "Very Good"
+        }
+      } ]
+    }, {
+      "linkId": "/61579-9",
+      "text": "In general, how would you rate your physical health?",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA13913-1",
+          "display": "Very Good"
+        }
+      } ]
+    }, {
+      "linkId": "/61580-7",
+      "text": "In general, how would you rate your mental health, including your mood and your ability to think?",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA13913-1",
+          "display": "Very Good"
+        }
+      } ]
+    }, {
+      "linkId": "/61581-5",
+      "text": "In general, how would you rate your satisfaction with your social activities and relationships?",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA13913-1",
+          "display": "Very Good"
+        }
+      } ]
+    }, {
+      "linkId": "/61585-6",
+      "text": "In general, please rate how well you carry out your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA13913-1",
+          "display": "Very Good"
+        }
+      } ]
+    }, {
+      "linkId": "/61582-3",
+      "text": "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA13938-8",
+          "display": "Mostly"
+        }
+      } ]
+    }, {
+      "linkId": "/61586-4",
+      "text": "In the past 7 days - How often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA10066-1",
+          "display": "Rarely"
+        }
+      } ]
+    }, {
+      "linkId": "/61584-9",
+      "text": "In the past 7 days - How would you rate your fatigue on average?",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA6751-7",
+          "display": "Moderate"
+        }
+      } ]
+    }, {
+      "linkId": "/61583-1",
+      "text": "In the past 7 days - How would you rate your pain on average?",
+      "answer": [ {
+        "valueCoding": {
+          "code": "LA6113-0",
+          "display": "2"
+        }
+      } ]
+    }, {
+      "linkId": "/71969-0",
+      "text": "PROMIS-10 Global Health, GMH, T score",
+      "answer": [ {
+        "valueDecimal": 48.3
+      } ]
+    }, {
+      "linkId": "/71970-8",
+      "text": "PROMIS-10 Global Health, GMH raw score",
+      "answer": [ {
+        "valueDecimal": 14
+      } ]
+    }, {
+      "linkId": "/71971-6",
+      "text": "PROMIS-10 Global Health, GPH, T score",
+      "answer": [ {
+        "valueDecimal": 50.8
+      } ]
+    }, {
+      "linkId": "/71972-4",
+      "text": "PROMIS-10 Global Health, GPH, raw score",
+      "answer": [ {
+        "valueDecimal": 16
+      } ]
+    }, {
+      "linkId": "/85523-9",
+      "text": "PROMIS short form - global - version 1.2 raw score",
+      "answer": [ {
+        "valueDecimal": 30
+      } ]
+    } ]
+}
